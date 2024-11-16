@@ -1,0 +1,131 @@
+@import '../../App.css';
+
+
+.box_manage{
+  display: flex
+}
+.functionbar{
+  width: 226px;
+height: 819px;
+border-radius: 18px 0px 0px 18px;
+background: var(--main_color);
+display: grid; /* Kích hoạt Grid Layout */
+}
+
+.manager_account{
+  
+  margin-bottom: 34px;
+  max-width: 226px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.manager_account i{
+  
+  max-width: 51px;
+  max-height: 51px;
+  font-size: 51px;
+}
+
+.manager_account  .admin_name{
+  height: 23.056px;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.manager_account .admin_gmail{
+  text-align: center;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* FUNCTION */
+.fuctionaa{
+  /* width: 226px; */
+  display: flex;
+  gap: 10px;
+
+}
+
+ .nav-link{
+  border-radius: 30px 0 0 18px;
+  width: 197px;
+  margin-left: auto;
+}
+
+.nav-pills .nav-link.active{
+  color: var(--main_color);
+  background-color: white;
+}
+.nav-link{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+#logout{
+  height: 20px;
+}
+#logout:hover{
+  color: rgb(83, 82, 5);
+}
+
+
+/* header */
+.work_header{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+
+}
+
+.brandd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+  
+  .brandd img{
+    margin-top: 10%;
+    width: 104px;
+    height: auto;
+  }  
+  
+  .brandd p{
+    color: var(--main_color);
+  font-family: "Monument Extended";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .notification{
+    display: flex;
+    color: var(--main_color);
+    align-items: center;
+    gap: 31px;
+    margin-right: 64px;
+  }
+
+  .notification i{
+    font-size: 23px;
+  }
