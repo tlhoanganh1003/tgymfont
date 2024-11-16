@@ -1,0 +1,33 @@
+@import '../../App.css';
+
+.footer{
+  width: 70vw;
+  margin-top: 27px;
+  margin-left: 240px;
+  background: #FFF;
+  display: flex;
+  gap: 141px;
+
+}
+
+.letter{
+  display: flex;
+  flex-direction: column;
+}
+
+h6{
+  color: #151515;
+/* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+a{
+  color: #151515;
+/* font-family: Poppins; */
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

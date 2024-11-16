@@ -1,0 +1,456 @@
+@import '../../App.css';
+
+.start {
+  background-image: linear-gradient(to top, var(--main_color), rgba(26, 19, 99, 0)), url('../imgHome/foreword_bg.png');
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 76.5vh; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.foreword{
+  max-width: 50%;
+padding-left: 6% ;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start;     
+  text-align: center;      
+  height: 100%; 
+ 
+
+}
+.quote {
+color: #FFF;
+/* font-family: Poppins; */
+font-size: 66.667px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 3.333px;
+margin-bottom: 20px;     /* Khoảng cách giữa .quote và .learn_more */
+}
+
+
+.logo_big{
+  margin-right: 22.9%;
+  width: 70%;
+}
+
+.learn_more{
+display: inline-flex;
+padding: 13.333px 26.667px;
+align-items: center;
+gap: 13.333px;
+border-radius: 66.667px;
+background: #FFFADF;
+}
+
+.learn_more a{
+  display: block;
+color: #3E3E3E;
+/* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.learn_more:hover {
+  background-color: rgb(74, 74, 74); 
+}
+
+.learn_more:hover a {
+  color: white; 
+}
+
+/* phần ABOUT */
+
+.about_home{
+  width: 100%;
+  height: 90%;
+  background: var(--main_color);
+}
+
+.about_top{
+  color: white;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.about_top1{
+  text-align: center;
+/* font-family: Poppins; */
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.about_top2{
+font-family: "Monument Extended";
+font-size: 53.333px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5.333px;
+}
+
+.about_bot{
+  position: relative;
+  display: flex;
+
+}
+
+
+.aboutImg{
+  position: relative;
+  z-index: 1;
+}
+
+.about_inf {
+  position: relative;
+  z-index: 1;
+}
+
+.about_inf .about_content{
+  max-width: 55%;
+  color: #FFFF7D;
+/* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.333px;
+margin-bottom: 3%;
+}
+.about_inf h3{
+  color: #FFF;
+  /* font-family: "Monument Extended"; */
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 1em
+}
+
+.offeres{
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.backimgabout{
+  /* margin-right: -10px; */
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+
+.backimgabout::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, var(--main_color), rgba(26, 19, 99, 0));
+  z-index: 1;  /* Đảm bảo gradient nằm trên ảnh */
+  pointer-events: none;  /* Đảm bảo không cản trở các tương tác người dùng */
+}
+
+
+/* COACHES */
+
+
+.coaches{
+  width: 100%;
+  height: 740px;
+  background: url('../imgHome/backcoach.png') no-repeat;
+  background-size: cover;
+}
+
+.coach_top{
+  padding-top: 40px;
+  margin-bottom: 40px;
+  height: 12.6%;
+  background: linear-gradient(180deg, #2B2B2B 0%, rgba(43, 43, 43, 0.00) 100%);
+}
+
+.coach_top p{
+  color: #FFF;
+text-align: center;
+font-family: "Monument Extended";
+font-size: 53.333px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5.333px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.coach_bot{
+  position: relative;
+  display:  flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 10px;
+  
+}
+
+.coach_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 443px;
+  height: auto;
+  position: relative;
+  text-align: center;
+  
+
+}
+
+.coach_itemon{
+  position: relative;
+  z-index: 2;
+}
+
+.coach_itemon p {
+  color: #1A1363;
+text-align: center;
+font-family: "Monument Extended";
+font-size: 26.667px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.667px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.coach_itemunder{
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+  width: 443px;
+  height: 443px;
+  border-radius: 53.333px;
+background: #B8B3EC;
+}
+
+/* VISIT OUR GYM */
+
+.lastpage{
+  width: 100%;
+  height: 122,57%;
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), url('../imgHome/visitbackgr.png');
+}
+
+.visit_to{
+  padding-top: 63px ;
+display: flex;
+justify-content: center;
+}
+
+.visitimg{
+  width: 520px;
+height: 709.333px;
+}
+.visit_inf{
+  display: flex;
+  flex-direction: column;
+}
+
+.visit_inf #visit_our_gym{
+  color: var(--main_color);
+/* font-family: "Monument Extended"; */
+font-size: 53.333px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 5.333px;
+margin-left: 46px ;
+}
+
+.visit_contact{
+  padding: 34px 55px 34px 63px;
+  width: 908px;
+  height: 410.667px;
+  border-radius: 0px 53.333px 0px 0px;
+background: #3E3E3E;
+}
+
+.vi_ct{
+  display: flex;
+  width: 790.667px
+}
+
+.vi_ct .alit_yellow{
+  /* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.333px;
+}
+
+.vi_ct h5{
+  /* font-family: Poppins; */
+  color: #FFF;
+  font-size: 26.667px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.333px; 
+}
+
+.socials{
+  margin-top: 20px;
+}
+.socials p{
+  color: #D3CFFF;
+/* font-family: "Monument Extended"; */
+font-size: 32px;
+font-style: normal;
+font-weight:700;
+line-height: normal;
+}
+
+
+.socials i{
+font-size: 63px;
+color: #FFF;
+margin-top: 18px;
+margin-right: 30px;
+}
+
+/* REGISTER */
+
+.regitser{
+  width: 100%;
+  background: rgba(62, 62, 62, 0.50);
+  padding-left:150px;
+  padding-bottom: 80px;
+}
+
+.regitser #regitser{
+  padding-top: 49px ;
+  padding-bottom: 13px;
+  color: #FFF;
+font-family: "Monument Extended";
+font-size: 53.333px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 4.267px;
+}
+
+.regitser_body{
+  display: flex;
+}
+
+.form_reg .form_input{
+  width: 604px;
+height: 580px;
+border-radius: 26.667px;
+border: 0.5px solid #000;
+background: #FFF;
+box-shadow: 0px 5.333px 5.333px 0px rgba(0, 0, 0, 0.05);
+padding-top: 43px;
+padding-left: 40px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.form_input p {
+  color: #151515;
+/* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.form_input input{
+  width: 512px;
+  height: 48px;
+  padding: 15px;
+  border: none;
+  border-radius: 66.667px;
+background: #BCBCBC;
+}
+
+.button_reg{
+  display: flex;
+  gap: 24px;
+  margin-top:29.3px ;
+}
+
+.button_reg .submit{
+  display: inline-flex;
+  padding: 13.333px 26.667px;
+  align-items: flex-start;
+  gap: 13.333px;
+  border-radius: 66.667px;
+background: #DEBA3B;
+color: var(--main_color);
+/* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.button_reg .clear_en{
+  display: inline-flex;
+padding: 13.333px 26.667px;
+align-items: flex-start;
+gap: 13.333px;
+border-radius: 66.667px;
+background: #FFFADF;
+color: #2B2B2B;
+/* font-family: Poppins; */
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.customer_progress{
+  width: 100%;
+}
+
+.customer_progress p{
+  color: #DEBA3B;
+  font-family: "Monument Extended";
+  font-size: 53.333px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+
+
+
+
+

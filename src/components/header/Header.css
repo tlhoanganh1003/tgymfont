@@ -1,0 +1,73 @@
+@import '../../App.css';
+
+*{
+  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  .header_page{
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    height: 97px;
+  }
+.brand{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 11.3%;
+height: 100%;
+  }
+
+.brand img{
+  margin-top: 10%;
+  width: 104px;
+  height: auto;
+}  
+
+.brand p{
+  color: var(--main_color);
+font-family: "Monument Extended";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.menu_item{
+  display: inline-flex;
+  padding: 26.667px;
+  align-items: flex-start;
+  gap: 13.3px;
+  margin-right: 11.3%;
+}
+
+.menu_button{
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--main_color);
+/* font-family: Poppins; */
+font-size: 21.333px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+border-radius: 13.333px;
+padding: 13.3px;
+height: 100%;
+}
+
+.menu_button:hover {
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+
+
+.register {
+  border-radius: 66.667px;
+  background: #FDEE21; 
+  padding: 13.3px;
+}
